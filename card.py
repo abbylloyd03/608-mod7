@@ -21,6 +21,7 @@ class Card:
         return self._suit
     
     def image_name(self):
+        """Return the Card's image file name."""
         return str(self).replace(' ', '_') + '.png'
     
     def __repr__(self):
